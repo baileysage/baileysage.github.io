@@ -2,7 +2,7 @@
 
 
 ## Projects
- [Time Cube](https://github.com/baileysage/baileysage.github.io/TimeCube.md) 
+ [Time Cube](https://baileysage.github.io/TimeCube) 
  
  ## Other Hobbies
  Gardening
