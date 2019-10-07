@@ -5,7 +5,7 @@
 
  [Time Cube](https://baileysage.github.io/TimeCube) 
  
-## Other Hobbies
+## Non-code Hobbies
 
 Gardening
  
