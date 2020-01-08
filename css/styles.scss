@@ -1,0 +1,1912 @@
+---
+# This is the Front Matter block for Jekyll to properly read this file
+---
+
+/**
+ * CONTENTS
+ *
+ * VARIABLES
+ * Colors................Color variables.
+ * Widths and Padding....Width and padding variables.
+ * Breakpoints...........Breakpoint variables.
+ * Border................Border variables.
+ * Animation.............Animation variables.
+ *
+ * RESET
+ * Border Box............Add border box to all elements.
+ * Margin/Padding/Border.Zero out margin/padding/border on certain elements
+ * List Styles...........No list styles. Zero out margin/padding.
+ * Table.................Initial Table Styles.
+ * Display Block.........Initialize header, footer, nav, section, article, hgroup, figure as display: block.
+ * Legend................Initialize legend as display: none.
+ *
+ * BASE
+ * Body..................Body base styles.
+ * Links.................Links base styles. Includes styles for image within links.
+ * Paragraph.............Paragraph base styles.
+ * Responsive Media......Set height: auto and width: 100% for images, objects, and video responsiveness.
+ * Video.................Video base styles.
+ * Heading 1.............Heading 1 base styles.
+ * Heading 2.............Heading 2 base styles.
+ * Heading 3.............Heading 3 base styles.
+ * Heading 4.............Heading 4 base styles.
+ * Links within h2/h3....Link styles within heading 2 and heading 3.
+ * Blockquote............Blockquote base styles.
+ * Small Text............Small text base styles.
+ * Input.................Input base styles.
+ * Input Placeholder.....Input placeholder text base styles.
+ * Code Block............Code block base styles.
+ * Preformatted Text.....Preformatted text base styles.
+ *
+ * LAYOUT
+ * 2-up Grid.............Grid layout 1up on small screens to 2 up on larger screens.
+ * 3-up Grid.............Grid layout 1 up, to 2 up, to 3 up.
+ * 4-up Grid.............Grid layout 1 up, to 2up, to 4 up.
+ * Split Grid............Grid split 50/50 layout.
+ * Featured Grid Item....Featured split grid item.
+ * Secondary Grid Item...Secondary split grid item.
+ * 2 Column Grid Layout..2 Column Grid Layout on larger screens
+ * Sidebar...............Block of content becomes sidebar on larger screens
+ *
+ * CONTENT
+ * Content...............Content of the 2 column grid layout. Includes elements within .content.
+ *
+ * HEADER
+ * Header................Header styles.
+ *
+ * LOGO
+ * Logo..................Logo styles.
+ * Atom Logo Span........The span wrapper of the atom logo
+ * Atom Logo Footer......Footer logo styles.
+ *
+ * NAVIGATION
+ * Navigation............Navigation wrapper
+ * Nav Button............Nav Button Toggle.
+ * Nav List..............Nav List.
+ * Nav Item..............Nav List Item.
+ * Nav Link..............Links within Nav.
+ *
+ * MAIN
+ * Main..................Main content section except for homepage.
+ *
+ * BANNER
+ * Banner................Wrapper containing the main heading of the page .
+ * Banner Title..........Heading within the banner wrapper.
+ * Banner Feature........Featured banner (on the homepage).
+ *
+ * DOCUMENTATION NAVIGATION
+ * Doc Nav Section.......Section where the documentation navigation items live.
+ * Doc Nav Title.........Title of the doc nav section.
+ * Text..................Text helpers.
+ *
+ * BUTTONS
+ * Buttons................General button styles.
+ * Button Group...........Group of buttons' styles.
+ *
+ * TABS
+ * Tabs Wrapper...........Wrapper where tabs live.
+ * Tabs List..............List of tabs.
+ * Tabs Link..............Link within tabs list item.
+ *
+ * TILE
+ * Tile...................Block of content. Includes variations.
+ *
+ * TILE LIST
+ * Tile List..............List of tiles.
+ *
+ * SECTION
+ * Section Title..........Title of section.
+ * Section Body...........Body of section.
+ * Section Header.........Wrapper inside section where section-inner and intro live.
+ * Section Inner..........Inner wrapper of section header.
+ * Reversed Section.......Section that is in reverse order of default section class.
+ * Section Edition........Section for Edition of Downloads.
+ *
+ * INTRO
+ * Intro..................Styles for intro class.
+ *
+ * GUTS
+ * Guts...................Block of content within documentation pages.
+ *
+ * BLOCKHEAD
+ * Blockhead..............Block of images and text used for pattern lab credits.
+ *
+ * LINK LIST
+ * Link List..............List of links.
+ * Link List Item.........Item of the link list.
+ * Link List Link.........Link within link list item.
+ *
+ * DOWNLOADS LIST
+ * Downloads List.........List of downloads on downloads page.
+ * Downloads List Item....List item of downloads list.
+ * Downloads List Link....Link within downloads list item.
+ *
+ * FOOTER
+ * Footer.................Footer wrapper styles.
+ * Footer Nav.............Footer navigation styles.
+ * Footer Note............Note of text within the footer.
+ *
+ * JAVASCRIPT ACTIVATED STYLES
+ * JS Activated Styles....Various styles that act differently when javascript is running (.js class added)
+ *
+ * DOCUMENTATION HOME
+ * Docs Index.............docs-index class styles.
+ *
+ * ANIMATIONS
+ * Atom Logo Rotation.....Animation of atom logo.
+ *
+ */
+
+
+
+
+
+ /*------------------------------------*\
+     #VARIABLES
+ \*------------------------------------*/
+
+/**
+ * Colors
+ */
+$color-gray-05: #f1f1f1;
+$color-gray-08: #ebebeb;
+$color-gray-10: #e5e5e5;
+$color-gray-13: #ddd;
+$color-gray-15: #d9d9d9;
+$color-gray-20: #ccc;
+$color-gray-25: #bfbfbf;
+$color-gray-30: #b3b3b3;
+$color-gray-35: #a6a6a6;
+$color-gray-50: #808080;
+$color-gray-75: #444;
+$color-gray-87: #222;
+
+$color-black: #000;
+$color-white: #fff;
+
+$color-cream: #ffeec4;
+$color-orange: #f99813;
+$color-gold: #e4ac00;
+
+/**
+ * Widths and Padding
+ */
+$max-width: 37em;
+$calc-width: calc(50% - 22.5em);
+
+$calc-pad: 35em;
+
+/**
+ * Breakpoints
+ */
+$bp-small: 26em;
+$bp-med: 34em;
+$bp-med-2: 46em;
+$bp-large: 60em;
+$bp-header: 57em;
+$bp-xl: 85em;
+
+/**
+ * Border
+ */
+$border: 0.1rem;
+$border-radius: 10px;
+
+/**
+ * Animation
+ */
+$anim-speed-quick: 0.2s;
+
+
+
+
+
+/*------------------------------------*\
+    #RESET
+\*------------------------------------*/
+
+/**
+ * Border Box
+ */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/**
+ * Margin/Padding/Border
+ */
+html, body, div, object, iframe, fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/**
+ * List Styles
+ */
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Table
+ */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**
+ * Display Block
+ */
+header, footer, nav, section, article, hgroup, figure {
+	display: block;
+}
+
+/**
+ * Legend
+ */
+legend {
+	display: none;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #BASE
+\*------------------------------------*/
+
+/**
+ * Body
+ */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: $color-gray-05;
+	color: $color-gray-87;
+	font: 120%/1.4 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+	overflow-x: hidden;
+}
+
+/**
+ * Links
+ */
+a {
+	color: $color-gray-50;
+	text-decoration: none;
+    transition: all $anim-speed-quick ease;
+
+	/**
+	 * Image Within Links
+	 */
+    img {
+    	border: 0;
+    	outline: 0;
+    }
+
+    &:hover, &:focus {
+        color: $color-gray-87;
+    }
+}
+
+/**
+ * Paragraph
+ */
+p {
+	margin: 0 0 1em;
+}
+
+/**
+ * Img/Object/Video Responsive
+ */
+img, object, video {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+
+/**
+ * Video
+ */
+video {
+    display: block;
+	width: 100%;
+	max-width: 75em;
+	margin: 0 auto;
+}
+
+/**
+ * Heading 1
+ */
+h1 {
+	font-size: 2.3em;
+	line-height: 1;
+	letter-spacing: -0.02em;
+	margin: 0 0 0.2em;
+
+	@media all and (min-width: $bp-med) {
+		font-size: 2.5em;
+	}
+}
+
+/**
+ * Heading 2
+ */
+h2 {
+	line-height: 1.1;
+	font-size: 1.5em;
+	margin: 1.2em 0 0.6em 0;
+
+	@media all and (min-width: $bp-med) {
+		font-size: 2em;
+	}
+}
+
+/**
+ * Heading 3
+ */
+h3 {
+	font-size: 1.3em;
+	line-height: 1.1;
+	margin: 0 0 0.2em;
+}
+
+/**
+ * Heading 4
+ */
+h4 {
+	font-size: 1em;
+	margin: 0.5em 0;
+}
+
+/**
+ * Links within h2/h3
+ */
+h2 a, h3 a {
+	color: $color-gray-87;
+
+	&:hover {
+		color: $color-gray-50;
+	}
+}
+
+/**
+ * Horizontal Rule
+ */
+hr {
+    display: block;
+	height: 40px;
+	border: 0;
+    background: $color-gray-05;
+    margin: 0 0 1rem;
+}
+
+/**
+ * Blockquote
+ */
+blockquote {
+	font-size: 1.3rem;
+	font-style: italic;
+	margin-left: 0;
+
+	p {
+		margin-bottom: 0;
+	}
+}
+
+/**
+ * Small Text
+ */
+small {
+	font-style: italic;
+	color: rgba(0,0,0,0.8);
+}
+
+/**
+ * Input
+ */
+input[type=search] {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+/**
+ * Input Placeholder Text
+ */
+::-webkit-input-placeholder {
+	color: #808080;
+}
+
+:-moz-placeholder {
+    color: #808080;
+}
+
+/**
+ * Code Block
+ */
+code {
+	background: rgba(0,0,0,0.05);
+	padding: 0.3em;
+}
+
+/**
+ * Preformatted Text
+ */
+pre {
+	background: $color-gray-87;
+	color: $color-white;
+	padding: 1rem;
+	white-space: pre;
+	overflow: auto;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+
+/**
+ * 2-up Grid
+ */
+.g--2up {
+	@media all and (min-width: $bp-med) {
+		display: flex;
+        flex-wrap: wrap;
+
+		> .gi {
+			width: 50%;
+            display: flex;
+		}
+	}
+}
+
+/**
+ * 3-up Grid
+ */
+.g--3up {
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+
+    @media all and (min-width: 30em) {
+		> .gi {
+			width: 50%;
+		}
+	}
+
+	@media all and (min-width: 50em) {
+		> .gi {
+			width: 33.333333%;
+		}
+	}
+}
+
+/**
+ * 4-up Grid
+ */
+.g--4up {
+	display: flex;
+	flex-wrap: wrap;
+
+	@media all and (min-width: $bp-small) {
+		> .gi {
+			width: 50%;
+			flex: 1 0 auto;
+		}
+	}
+
+	@media all and (min-width: $bp-med-2) {
+		> .gi {
+			width: 25%;
+			flex: 1 0 auto;
+		}
+	}
+}
+
+/**
+ * Split Grid
+ */
+.g-split {
+    @media all and (min-width: 40em) {
+        display: flex;
+    }
+}
+
+/**
+ * Featured Grid Item
+ */
+.g-split__feature {
+
+    background: $color-gray-87;
+    color: $color-gray-13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+    &--light {
+	    background: $color-gray-75;
+    }
+
+    @media all and (min-width: 40em) {
+        width: 50%;
+    }
+}
+
+/**
+ * Secondary Grid Item
+ */
+.g-split__secondary {
+    display: flex;
+    flex-direction: column;
+
+    @media all and (min-width: $bp-med) {
+        flex-direction: row;
+    }
+
+    @media all and (min-width: 40em) {
+        width: 50%;
+        flex-direction: column;
+    }
+}
+
+.l {
+	padding: 0 2rem;
+}
+
+.l-linelength-container {
+	max-width: 38rem;
+}
+
+/**
+ * 2 Column Grid Layout on Larger Screens
+ */
+.l-two-col {
+	@media all and (min-width: $bp-large) {
+		display: -webkit-flex;
+  		display: flex;
+  		flex-direction: row;
+	}
+}
+
+/**
+ * Sidebar Larger Screens
+ */
+ .sidebar {
+	 background: $color-gray-05;
+
+	@media all and (min-width: $bp-large) {
+		flex: 1;
+		-webkit-box-flex: 1;
+		border-left: 1px solid rgba(0,0,0,0.2);
+	}
+}
+
+
+/**
+ * 2-up 1-down Grid
+ * 1) 2 grid items split on top with 1 item below full width
+ */
+.g--2up-1down {
+
+	@media all and (min-width: $bp-med) {
+		display: flex;
+        flex-wrap: wrap;
+
+		> .gi {
+			width: 50%;
+            display: flex;
+
+            &:nth-child(3) {
+	            width: 100%;
+            }
+		}
+	}
+}
+
+
+/*------------------------------------*\
+    #CONTENT
+\*------------------------------------*/
+
+/**
+ * Content
+ */
+.content {
+	width: 100%;
+	counter-reset: big-nums;
+	padding: 1rem 2rem 1rem 1rem;
+
+	/**
+	 * Image Within Content
+	 */
+
+	img {
+		display: block;
+		margin-bottom: 1rem;
+	}
+
+	/**
+	 * Paragraph Within Content
+	 */
+	p {
+		counter-reset: big-nums;
+	}
+
+	/**
+	 * Code Within Pre Within Content
+	 */
+	pre code {
+		padding: 0;
+	}
+
+	/**
+	 * Unordered List Within Content
+	 */
+	ul {
+		margin: 1.5em 3em;
+		list-style: square;
+	}
+
+	/**
+	 * Ordered List Within Content
+	 */
+	ol {
+		margin: 1.5em 1em;
+
+		/**
+		 * Ordered List Item Within Content
+		 */
+		li {
+			counter-increment: big-nums;
+			position: relative;
+			padding-left: 2em;
+		}
+
+		/**
+		 * Paragraph Within Content
+		 */
+		li:before {
+			content: counter(big-nums);
+			display: block;
+			background: rgba(0,0,0,0.5);
+			color: #fff;
+			padding: 0 0.5em;
+			border-radius: 1em;
+			position: absolute;
+			top: 0;
+			left: 0;
+
+		}
+	}
+
+	/**
+	 * List Item Within Content
+	 */
+	li {
+		margin-bottom: 0.5em;
+	}
+
+	@media all and (min-width: $bp-med) {
+		padding-left: 2rem;
+	}
+
+	@media all and (min-width: $bp-large) {
+		width: 65%;
+	}
+}
+
+/**
+ * Links within feature blocks hover with light color
+ */
+.g-split__feature__link {
+	&:hover, &:focus {
+		color: $color-white;
+	}
+}
+
+
+
+
+/*------------------------------------*\
+    #HEADER
+\*------------------------------------*/
+
+/**
+ * Header
+ */
+.header {
+	display: flex;
+	flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+	position: relative;
+	background: $color-gray-87;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #LOGO
+\*------------------------------------*/
+
+/**
+ * Logo
+ */
+.logo {
+	text-transform: lowercase;
+	font-size: 1.4rem;
+    font-weight: bold;
+	position: relative;
+	line-height: 1;
+	margin: 0;
+    display: flex;
+    align-items: center;
+    transition: color $anim-speed-quick ease;
+
+    &:hover, &:focus {
+        color: $color-white;
+    }
+}
+
+/**
+ * Atom Logo Span
+ */
+.atom {
+	display: block;
+	width: 2rem;
+	height: 2rem;
+    margin-right: 0.5rem;
+	background: url(/assets/icon-atom.svg) no-repeat;
+	background-size: 100% 100%;
+	animation: rotation 10s linear infinite;
+}
+
+/**
+ * Atomic Logo Footer
+ */
+.atomic-design {
+	display: block;
+	max-width: 20em;
+	margin: 0 auto;
+
+	/**
+	 * Atomic Design Logo Image In Footer
+	 */
+	img {
+		padding: 0 1em;
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+    #NAVIGATION
+\*------------------------------------*/
+/**
+ * Navigation
+ */
+.nav {
+	margin-left: auto;
+	position: relative;
+
+    a {
+        font-weight: bold;
+    }
+
+	&.opened {
+	  max-height: 9999px;
+	}
+}
+
+/**
+ * Nav Button
+ */
+.nav__btn {
+    display: block;
+    font-size: 1.2rem;
+    border: 0;
+    color: $color-gray-50;
+    font-weight: bold;
+    text-transform: lowercase;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+
+    @media all and (min-width: $bp-header) {
+        display: none;
+    }
+}
+
+/**
+ * Nav List
+ */
+.nav__list {
+    display: none;
+    margin-right: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 500;
+
+    /**
+	 * Nav List Is Active (Triggered by Nav Button Click)
+	 */
+	&--is-active {
+		display: block;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		background: $color-gray-87;
+
+		@media all and (min-width: $bp-header) {
+			position: relative;
+		}
+	}
+
+    @media all and (min-width: $bp-header) {
+        display: flex;
+    }
+}
+
+/**
+ * Nav List Items
+ */
+.nav__item {
+    text-transform: lowercase;
+
+    @media all and (min-width: $bp-header) {
+        margin-left: 1.5rem;
+    }
+}
+
+/**
+ * Nav Links
+ */
+.nav__link {
+    display: block;
+    padding: 0.5rem;
+    transition: color $anim-speed-quick ease;
+
+    &:hover, &:focus {
+        color: $color-white;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    #MAIN
+\*------------------------------------*/
+
+/**
+ * Main
+ */
+main {
+	position: relative;
+	flex: 1 0 auto;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #BANNER
+\*------------------------------------*/
+
+/**
+ * Banner
+ * 1) Wrapper containing the main heading of the page
+ */
+.banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: $color-gray-87;
+	position: relative;
+    height: 30vh;
+	padding: 0 2rem;
+
+
+    @media all and (min-width: $bp-med) {
+	    height: 40vh;
+    }
+}
+
+/**
+ * Banner Title
+ * 1) Heading within the banner
+ */
+.banner__title {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 2rem 0;
+    color: $color-gray-05;
+
+    .banner--feature & {
+	    flex: 1;
+        display: flex;
+        align-items: center;
+        font-size: 3rem;
+
+        @media all and (min-width: 34em) {
+	        font-size: 4rem;
+        }
+    }
+
+    @media all and (min-width: $bp-med) {
+        font-size: 4rem;
+    }
+}
+
+.banner__description {
+	color: $color-white;
+}
+
+/**
+ * Banner Feature
+ */
+.banner--feature {
+    flex-direction: column;
+    height: auto;
+
+    @media all and (min-width: 36em) {
+        height: 70vh;
+    }
+
+    @media all and (min-width: 60em) {
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    #DOCUMENTATION NAVIGATION
+\*------------------------------------*/
+
+/**
+ * Documentation Navigation Section
+ */
+.docs-nav__section {
+	padding: 1rem 1rem 1rem 2rem;
+	background: $color-gray-05;
+
+	@media all and (min-width: $bp-med) {
+		width: 50%;
+	}
+
+	@media all and (min-width: $bp-large) {
+		width: 100%;
+	}
+}
+
+/**
+ * Title of the Documentation Navigation Section
+ */
+.docs-nav__title {
+	display: block;
+	font-weight: bold;
+	color: $color-gray-87;
+	font-size: 1.4rem;
+	margin-bottom: 0.4em;
+}
+
+
+.docs-nav__list {
+	@media all and (min-width: $bp-med) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	@media all and (min-width: $bp-large) {
+		display: block;
+		flex-wrap: nowrap;
+	}
+}
+
+
+/*------------------------------------*\
+	#BUTTONS
+\*------------------------------------*/
+
+/**
+ * Button
+ */
+.btn {
+	position: relative;
+	font-weight: bold;
+    font-size: 2rem;
+	padding: 2rem;
+	background: $color-gray-75;
+	color: $color-white;
+	transition: all $anim-speed-quick ease;
+
+	/**
+	 * Button With Display Flex Property
+	 */
+	&--flex {
+	    flex: 1;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	/**
+	 * Button Within Button Group
+	 */
+	.btn-group & {
+		display: block;
+        margin: 0;
+
+        /**
+		 * First Button Within Button Group
+		 */
+        &:nth-of-type(1) {
+	        background: $color-gray-10;
+	        color: $color-gray-87;
+
+	        &:hover, &:focus {
+	            background: $color-gray-50;
+	        }
+	    }
+
+	    /**
+		 * Second Button Within Button Group
+		 */
+	    &:nth-of-type(2) {
+	        background: url(../assets/atoms-scales.png);
+	        color: $color-gray-10;
+
+	        &:hover, &:focus {
+	            background-position: 0 30%;
+	        }
+	    }
+
+		/**
+		 * Third Button Within Button Group
+		 */
+	    &:nth-of-type(3) {
+	        background: $color-gray-50;
+
+	        &:hover, &:focus {
+	            color: $color-gray-05;
+	            background: $color-gray-75;
+	        }
+	    }
+
+        @media all and (min-width: 41em) {
+	        flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+	    }
+	}
+
+    &:hover, &:focus {
+        color: $color-white;
+        background: $color-gray-50;
+    }
+}
+
+/**
+ * Button Group
+ */
+.btn-group {
+    width: 100%;
+
+    @media all and (min-width: 41em) {
+        display: flex;
+        width: 100%;
+    }
+
+    @media all and (min-width: 60em) {
+        flex-direction: column;
+        height: 100%;
+        width: 20em;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    #TABS
+\*------------------------------------*/
+
+/**
+ * Tabs Wrapper
+ */
+.tabs-wrapper {
+	padding: 0;
+	position: relative;
+	background: $color-gray-87;
+	color: white;
+	width: 100%;
+}
+
+/**
+ * Tabs List
+ */
+.tabs {
+	display: flex;
+}
+
+/**
+ * Tabs Link
+ */
+.tabs__link {
+	position: relative;
+	display: block;
+	color: white;
+	padding: 1em 3em;
+	font-weight: bold;
+
+	&--is-active {
+		background: $color-white;
+		position: relative;
+		color: $color-black;
+
+		&:hover {
+			color: $color-white;
+		}
+	}
+
+	&:hover {
+		background: $color-gray-35;
+		transition: background $anim-speed-quick ease;
+	}
+}
+
+
+
+
+/*------------------------------------*\
+    #TILE
+\*------------------------------------*/
+
+.tile {
+    background: $color-gray-05;
+    padding: 2rem;
+
+	/**
+	 * Alternative Tile Style 1
+	 */
+    &--alt {
+        background: $color-gray-10;
+    }
+
+	/**
+	 * Alternative Tile Style 2
+	 */
+    &--alt2 {
+        background: $color-white;
+    }
+
+	/**
+	 * Alternative Tile Style Fancy
+	 */
+    &--fancy {
+        background: url(../assets/bg-organism-pattern.svg);
+    }
+
+    /**
+	 * Alternative Tile Style Fancy 2
+	 */
+    &--fancy-2 {
+        background: url(../assets/organisms-scales.png);
+    }
+
+	/**
+	 * Alternative Tile Style Flexible (Fill Up Remaining Space)
+	 */
+    &--flex {
+        flex: 1;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    #TILE LIST
+\*------------------------------------*/
+
+/**
+ * List of Tiles
+ */
+.tile-list {
+    background: $color-gray-13;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #SECTION
+\*------------------------------------*/
+
+/**
+ * Section Title
+ */
+.section__title {
+	font-size: 2.2rem;
+    margin: 0 0 0.3rem;
+}
+
+/**
+ * Section Body
+ */
+.section__body {
+	padding: 0.5em 0 1.5em;
+
+	/**
+	 * Section Body Within Center Aligned Section
+	 */
+	.section--center & {
+		padding: 0;
+	}
+}
+
+/**
+ * Section Header
+ */
+.section__header {
+
+	/**
+	 * Section Header Within Center Aligned Section
+	 */
+	.section--center & {
+		background: $color-gray-13;
+	}
+}
+
+/**
+ * Inner Div of a Section
+ */
+.section__inner {
+
+	/**
+	 * Inner Div Within The Section Header
+	 */
+	.section__header & {
+		max-width: 60rem;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+	}
+}
+
+/**
+ * Reversed Section
+ */
+.section--reversed {
+    background: $color-gray-87;
+    color: $color-gray-13;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #INTRO
+\*------------------------------------*/
+
+/**
+ * Intro Text
+ * 1) Description of the section
+ */
+.intro {
+	font-size: 1.5rem;
+	line-height: 1.3;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #GUTS
+\*------------------------------------*/
+/**
+ * Content of the Documentation Pages Including .content and .sidebar
+ */
+.guts {
+	background: $color-white;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #BLOCKHEAD
+\*------------------------------------*/
+
+/**
+ * 1) The credit headshot blocks.
+ */
+.blockhead {
+    position: relative;
+}
+
+/**
+ * Blockhead Image
+ * 1) Sits behind the blockhead info
+ */
+.blockhead__img {
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+/**
+ * Blockhead Info
+ * 1) Sits on top of the image
+ */
+.blockhead__info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        color: $color-gray-05;
+
+        &:hover, &:focus {
+            color: $color-gray-20;
+        }
+    }
+}
+
+/**
+ * Blockhead Title
+ * 1) Primary link
+ */
+.blockhead__title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/**
+ * Blockhead Subtitle
+ * 1) Secondary link
+ */
+.blockhead__subtitle {
+    font-size: 0.9rem;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #LINK LIST
+\*------------------------------------*/
+
+/**
+ * List of Links
+ * 1) Used for the documentation page index currently
+ */
+.link-list {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * List Item Within Link List
+ */
+.link-list__item {
+
+	/**
+	 * Link List Item When Item Is Selected/Current Page
+	 */
+	&--is-selected {
+		position: relative;
+
+		/**
+		* Image Before The Selected Link List Item
+		*/
+		&:before {
+			content:"";
+			display: block;
+			background: url(../assets/icon-atom-dark.svg) no-repeat;
+			background-size: 100%;
+			height: 18px;
+			width: 18px;
+			left: -24px;
+			top: 11px;
+			position: absolute;
+		}
+	}
+}
+
+/**
+ * Link Within the Link List Item
+ */
+.link-list__link {
+	display: block;
+    padding: 0.4rem 0;
+    font-weight: bold;
+
+    /**
+	 * Link Within the Selected List Item
+	 */
+    .link-list__item--is-selected & {
+		color: $color-gray-87;
+
+		&:hover {
+			color: $color-black;
+		}
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    #LINK DESCRIPTION LIST
+\*------------------------------------*/
+
+/**
+ * Link Desc List
+ * 1) Used for a list of links with descriptions underneath
+ */
+.link-desc-list {
+    margin: 0;
+    padding: 0;
+
+    .g--2up-1down .gi:nth-child(3) & {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+}
+
+/**
+ * List Item Within Link Desc List
+ */
+.link-desc-list__item {
+
+	.g--2up-1down .gi:nth-child(3) & {
+
+		@media all and(min-width: $bp-med) {
+			width: 50%;
+			padding-right: 2rem;
+
+			&:nth-child(2n) {
+				padding-right: 0;
+			}
+
+		}
+
+		@media all and(min-width: $bp-med-2) {
+			width: 33%;
+
+			&:nth-child(2n) {
+				padding-right: 2rem;
+			}
+
+			&:nth-child(3n) {
+				padding-right: 0;
+			}
+		}
+	}
+}
+
+/**
+ * Link Within the Link Desc List Item
+ */
+.link-desc-list__link {
+	position: relative;
+	display: inline;
+    padding: 0.4rem 0 0;
+    font-size: 1.3rem;
+    color: $color-gray-75;
+    font-weight: bold;
+
+    &:after {
+		position: absolute;
+		content: "";
+		height: 20px;
+		width: 20px;
+		background: url("../assets/emptycaret.svg") no-repeat;
+		top: 11px;
+		right: -24px;
+		transition: all 0.2s ease;
+	}
+
+    &:hover, &:focus {
+	    color: $color-black;
+
+	    &:after {
+		    right: -28px;
+	    }
+    }
+}
+
+/**
+ * Link Desc List Item Description
+ */
+.link-desc-list__desc {
+	font-size: 1rem;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #STACKED BLOCK
+\*------------------------------------*/
+.c-stacked-block__kicker {
+	font-size: 0.875rem;
+	color: $color-gray-50;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #STACKED BLOCK LIST
+\*------------------------------------*/
+.c-stacked-block__item {
+	margin-bottom: 2rem;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #FOOTER
+\*------------------------------------*/
+
+.footer {
+	clear: both;
+	background: $color-gray-87;
+	position: relative;
+	padding: 1em 0;
+
+	.atomic-design {
+		margin-bottom: 1em;
+	}
+}
+
+/**
+ * Navigation Within the Footer
+ */
+.footer-nav {
+	margin: 0 2em 1em 2em;
+
+    @media all and (min-width: 620px) {
+	    margin: 0 6em 1em 6em;
+	}
+
+	@media all and (min-width: 760px) {
+		margin: 0 2em 1em 2em;
+	}
+}
+
+/**
+ * Footer Navigation List
+ */
+.footer-nav__list {
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	z-index: 2;
+
+	@media all and (min-width: 700px) {
+		flex: 1;
+    }
+}
+
+/**
+ * Footer Navigation List Item
+ */
+.footer-nav__item {
+	width: 100%;
+	flex: 1 0 auto;
+
+	@media all and (min-width: 470px) and (max-width: 760px) {
+		width: 50%;
+	}
+
+	@media all and (min-width: 760px) {
+		width: auto;
+	}
+}
+
+/**
+ * Link Within Footer Navigation List Item
+ */
+.footer-nav__link {
+	position: relative;
+	display: block;
+	font-weight: bold;
+	background: $color-gray-87;
+	text-align: center;
+	padding: 0.5em 0;
+	text-transform: lowercase;
+
+	&:hover, &:focus {
+		color: $color-white;
+	}
+}
+
+/**
+ * Text Note Within Footer
+ */
+.footer__note {
+    font-size: 80%;
+    margin-bottom: 2rem;
+    color: $color-gray-50;
+    text-align: center;
+
+	/**
+	 * Link within the Footer Note
+	 */
+    a {
+        color: $color-gray-25;
+        text-decoration: underline;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    #JAVASCRIPT ACTIVATED STYLES
+\*------------------------------------*/
+
+/**
+ * Nav Only When JS is Working
+ */
+.js .nav {
+	position: relative;
+
+	@media all and (min-width: $bp-med-2) {
+		position: relative;;
+		overflow: visible;
+  	}
+}
+
+/**
+ * Content in Documentation Pages Only When JS is Working
+ */
+.js .content {
+	padding: 2.4rem 2rem 1rem 1rem;
+
+	@media all and (min-width: $bp-med) {
+		padding-left: 2rem;
+	}
+}
+
+/**
+ * Panel That Tabs Open/Close Only When JS is Working
+ */
+.js .tabs__panel {
+	display: none;
+}
+
+/**
+ * Tabs List Item Only When JS is Working
+ */
+.js .tabs__item {
+
+	/**
+	 * Tabs List Item Only When JS is Working and Item is Active
+	 */
+	&--is-active {
+		display: block;
+	}
+}
+
+/**
+ * Language Title Within Tabs__Panel Only When JS is Working
+ */
+.js .language-title {
+	display: none;
+}
+
+/**
+ * Docs Nav Section Only When JS is Working
+ */
+.js .docs-nav-section {
+	&:first-child {
+		padding: 1.8rem 1rem 1rem 2rem;
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+    #DOCUMENTATION HOME
+\*------------------------------------*/
+
+.docs-index {
+
+	/**
+	 * 1) Hide the key on the node partial when on the index, as it's mentioned earlier, but needed on the individual pages
+	 */
+	&.node .sub-only {
+		display: none;
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+    #ALERT
+\*------------------------------------*/
+.c-alert {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1.5rem;
+	background: $color-gray-15;
+	color: $color-black;
+	font-weight: bold;
+	animation: pulseIn 1s ease-in;
+
+	&:hover, &:focus {
+		background: $color-gold;
+		text-decoration: underline;
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+    #TEXT PASSAGE
+\*------------------------------------*/
+.c-text-passage {
+	p {
+		margin-bottom: 1rem;
+	}
+
+	/**
+	 * Blockquote within text passage
+	 */
+	blockquote {
+		padding-left: 1rem;
+		border-left: 3px solid $color-gray-75;
+		color: $color-gray-50;
+		font-size: 1rem;
+	 }
+
+	 /**
+	  * First-level heading within text passage
+	  */
+	 h1 {
+		 margin-bottom: 1rem;
+	 }
+
+	/**
+	 * Second-level heading within text passage
+	 */
+	h2 {
+		margin: 1rem 0 1rem;
+		font-weight: bold;
+	}
+
+	/**
+	 * Third-level heading within text passage
+	 */
+	h3 {
+		margin: 1rem 0 1rem;
+	}
+
+	/**
+	 * Fourth-level heading within text passage
+	 */
+	h4 {
+		margin: 1rem 0 1rem;
+	}
+
+	/**
+	 * Fifth-level heading within text passage
+	 */
+	h5 {
+		margin: 1rem 0 1rem;
+	}
+
+	/**
+	 * Sixth-level heading within text passage
+	 */
+	h6 {
+		margin: 1rem 0 1rem;
+	}
+
+
+	/**
+	 * Unordered list within text passage
+	 */
+	ul {
+		list-style: disc;
+		margin-left: 1.25rem;
+		margin-bottom: 1rem;
+
+		li:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	/**
+	 * Ordered list within text passage
+	 */
+	ol {
+		list-style: decimal;
+		margin-left: 1.25rem;
+		margin-bottom: 1rem;
+
+		li:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	li {
+		margin-bottom: 0.5rem;
+		line-height: 1.6;
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+    #UTILITIES
+\*------------------------------------*/
+
+.u-margin-bottom-large {
+	margin-bottom: 2rem !important;
+}
+
+
+
