@@ -1,3 +1,12 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: homepage
+title: Home
+
+---
+
 ## Welcome! 
 
 Attempting to keep the world up to date on my projects. 
@@ -22,10 +31,8 @@ Robots in the Classroom
 ## Other Groups and Hobbies
 
 [Area515](https://area515.org)
- - Robot Night (7pmSecond Wednesdays every month!)
- - Educational Director
+ - Former Educational Director and Board Member
  - Regular classroom instructor
- - Sign maker
 
 [LadyDev](https://ladydev.org/)
  - Founding member
