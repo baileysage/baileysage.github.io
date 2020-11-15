@@ -5,7 +5,7 @@ date:   2020-11-13 20:14:28 -0600
 categories: update
 ---
 
-After a kind ladyDev showed me what I mucked up with my A records last night, I think I figured out how do do this wholewebsite thing. I want to get back to practicing regular documentation of my efforts. Practicing being the key word. Regular being the trick. 
+After a kind ladyDev showed me what I mucked up with my A records last night, I think I figured out how do do this whole website thing. I want to get back to practicing regular documentation of my efforts. Practicing being the key word. Regular being the trick. 
 
 ## So... projects update. 
 

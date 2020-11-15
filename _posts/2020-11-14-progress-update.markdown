@@ -10,7 +10,9 @@ In the spirit of "regularly", documenting progress made on projects today. And f
 Picked up the first desk for my office and got it unpacked. It's really happening! Also bought some of the register covers I need for the office and bedrooms. And cable needles and thread at Joann while I was out and about. ;) 
 
 Fixed a blanket I made for my mother last year. It was made in strips and a couple of my seams came out. 
-![Crochet flowers](/assets/images/20201114-flowers.jpg)
+
+![Crochet flowers]({{ site.url }}/assets/images/20201114_blanket.jpg)
 
 Said I wouldn't crochet, but I did a small number of flowers because I couldn't help myself.
-![Mom's blanket](/assets/images/20201114-blanket.jpg)
+
+![Mom's blanket]({{ site.url }}/assets/images/20201114_flowers.jpg)
