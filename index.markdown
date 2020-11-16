@@ -13,10 +13,8 @@ Attempting to keep the world up to date on my projects.
 
 Requests to hire me can be made through [Stone Path Engineering LLC](https://stone-path-engineering.github.io/) for just me on small or short term embedded projects, local electronics training or maker space consulting. If you have a large or complex embedded project, you can hire me as part of the excellent team of engineers at [Dojo Five LLC](https://dojofive.com/). 
 
-## Projects
+## Code and Electronics Projects
 
-[Time Cube](https://baileysage.github.io/TimeCube) 
- 
 [Classroom Sound Meter](https://github.com/baileysage/ClassroomSoundMeter)
  
 [Lunch Club Mailer](https://github.com/baileysage/LunchClubMailer)
@@ -39,7 +37,8 @@ Robots in the Classroom
 
 Laser Cutting
 
-[Crochet](https://www.ravelry.com/people/baileysage)
+[Crochet]({{ site.url }}/pages/crochet.html)
+
 
 Book Binding
 
