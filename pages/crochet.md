@@ -16,6 +16,7 @@ I've been trying to log my projects at [Ravelry](https://www.ravelry.com/people/
 - Easter eggs (Collaborating with sister. She's embroidering them.)
 - Wreath (For spring, not Christmas.)
 - Tiny cactus for sister
+- Boots for sister - using [these shoe soles](https://www.etsy.com/listing/749832599/10-pairs-winter-soles-for-crochet-shoes)
 
 # Long term
 - [Computational Crochet]({{ site.url }}/pages/computational_crochet.html)
