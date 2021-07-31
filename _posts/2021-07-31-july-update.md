@@ -26,3 +26,8 @@ Made a jellyfish (and called it an octopus or squid.... more than once) for a fr
 
 Also got bored and tried my hand at a hyperbolic plane.
 ![Hyperbolic Plane]({{ site.url }}/assets/images/hyperbolicplane.JPG)
+
+## Electronics
+
+Soldered up the umbrella pin!
+![Lit Umbrella PCB]({{ site.url }}/assets/images/umbrella_lit.JPG)
