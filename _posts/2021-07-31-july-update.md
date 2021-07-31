@@ -11,23 +11,23 @@ Getting married! JB proposed and we're getting hitched next year! Super happy an
 
 ## Dog Update
 
-Blackfeather is settling in well. Haven't gotten over the hookworm yet, though. Started new medication this month to keep combating them. ![Heart]({{ site.url }}/assets/images/blackfeather_heart.JPG)
+Blackfeather is settling in well. Haven't gotten over the hookworm yet, though. Started new medication this month to keep combating them. ![Heart]({{ site.url }}/assets/images/blackfeather_heart.jpg)
 
 
 He got to hang out with other greyhounds and learned about pool life.
-![Pool]({{ site.url }}/assets/images/blackfeather_pool.JPG)
+![Pool]({{ site.url }}/assets/images/blackfeather_pool.jpg)
 
 
 ## Crochet
 
 Made a jellyfish (and called it an octopus or squid.... more than once) for a friend's baby shower. 
-![Jellyfish]({{ site.url }}/assets/images/jellyfish.JPG)
+![Jellyfish]({{ site.url }}/assets/images/jellyfish.jpg)
 
 
 Also got bored and tried my hand at a hyperbolic plane.
-![Hyperbolic Plane]({{ site.url }}/assets/images/hyperbolicplane.JPG)
+![Hyperbolic Plane]({{ site.url }}/assets/images/hyperbolicplane.jpg)
 
 ## Electronics
 
 Soldered up the umbrella pin!
-![Lit Umbrella PCB]({{ site.url }}/assets/images/umbrella_lit.JPG)
+![Lit Umbrella PCB]({{ site.url }}/assets/images/umbrella_lit.hpg)
