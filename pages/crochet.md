@@ -45,3 +45,13 @@ Turtle
 
 # See Also:
 [Ravelry](https://www.ravelry.com/people/baileysage). Most pictures will go up there.
+
+# Updates
+
+<h3 class="category-head">{{ crochet }}</h3>
+<a name="{{ crochet | slugize }}"></a>
+{% for post in site.categories[crochet] %}
+  <article class="archive-item">
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+  </article>
+{% endfor %}
