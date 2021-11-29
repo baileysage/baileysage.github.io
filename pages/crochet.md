@@ -50,7 +50,7 @@ Turtle
 
 <h3 class="category-head">{{ crochet }}</h3>
 <a name="{{ crochet | slugize }}"></a>
-{% for post in site.categories[crochet] %}
+{% for post in site.categories["crochet"] %}
   <article class="archive-item">
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
   </article>
