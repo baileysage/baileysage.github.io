@@ -30,4 +30,4 @@ Also got bored and tried my hand at a hyperbolic plane.
 ## Electronics
 
 Soldered up the umbrella pin!
-![Lit Umbrella PCB]({{ site.url }}/assets/images/umbrella_lit.hpg)
+![Lit Umbrella PCB]({{ site.url }}/assets/images/umbrella_lit.jpg)
