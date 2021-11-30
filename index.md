@@ -1,6 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: homepage
 title: Home
@@ -26,7 +24,7 @@ Requests to hire me can be made through [Stone Path Engineering LLC](https://sto
 
 Robots in the Classroom
  
-## Other Groups and Hobbies
+## Groups
 
 [Area515](https://area515.org)
  - Former Educational Director and Board Member
@@ -35,10 +33,16 @@ Robots in the Classroom
 [LadyDev](https://ladydev.org/)
  - Founding member
 
-Laser Cutting
+## Categories
+
+[Art]({{ site.url }}/pages/art.html)
 
 [Crochet]({{ site.url }}/pages/crochet.html)
 
+[Sewing]({{ site.url }}/pages/sewing.html)
 
-Book Binding
+[House]({{ site.url }}/pages/house.html)
 
+[LED Projects]({{ site.url }}/pages/led_projects.html)
+
+[Electronics]({{ site.url }}/pages/electronics.html)

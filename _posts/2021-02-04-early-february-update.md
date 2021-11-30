@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Early February Update"
-categories: [crochet, update, laser, house]
+categories: [crochet, art, house]
 date: 2021-02-04 14:40
 ---
 

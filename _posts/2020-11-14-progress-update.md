@@ -2,7 +2,7 @@
 layout: post
 title:  "Progress Report as excuse to learn a thing"
 date:   2020-11-14 22:10:28 -0600
-categories: [update, crochet, house, tech] 
+categories: [crochet, house, electronics] 
 ---
 
 In the spirit of "regularly", documenting progress made on projects today. And figuring out how to add images to the site! 

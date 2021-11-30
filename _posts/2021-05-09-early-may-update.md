@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Early May Update"
-categories: [update, crochet, tech, house, laser, dog]
+categories: [crochet, electronics, house, art, dog]
 date: 2021-05-09 14:40
 ---
 

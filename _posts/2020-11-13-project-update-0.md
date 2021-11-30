@@ -2,7 +2,7 @@
 layout: post
 title:  "Project Update 0"
 date:   2020-11-13 20:14:28 -0600
-categories: [update, crochet, house, tech, laser, baking]
+categories: [crochet, house, electronics, art, baking]
 ---
 
 After a kind ladyDev showed me what I mucked up with my A records last night, I think I figured out how do do this whole website thing. I want to get back to practicing regular documentation of my efforts. Practicing being the key word. Regular being the trick. 

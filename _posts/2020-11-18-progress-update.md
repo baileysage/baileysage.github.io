@@ -2,7 +2,7 @@
 layout: post
 title:  "Project Update - New office edition"
 date:   2020-11-18 06:50:00 -0600
-categories: [update, house, crochet, baking] 
+categories: [house, crochet, baking] 
 ---
 
 ## Things finished feel so good.
