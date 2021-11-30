@@ -5,8 +5,6 @@ categories: [crochet]
 date: 2021-11-30 18:00
 ---
 
-# Fall Crochet Projects
-
 Finished the amigurumi turtle to go with the as yet unfinished "beach blanket". 
 ![Turtle]({{ site.url }}/assets/images/crochet_turtle.jpg)
 

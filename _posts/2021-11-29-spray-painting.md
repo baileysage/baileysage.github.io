@@ -5,7 +5,6 @@ categories: [art, house]
 date: 2021-11-29 21:00
 ---
 
-# Spray Painting
 It's been warm out, so I have been playing with rattle cans. On the boring side, I coated some metal shelf legs to keep them from rusting and painted the kickplate for my tall white cabinet (they only sent blue ones for my lowers, forgetting that the pantry cabinet needed a kickplate, too.) 
 
 On the more fun side, I got the fairy door for my office painted white.
