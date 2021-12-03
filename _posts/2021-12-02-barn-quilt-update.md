@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Barn Quild"
+title: "Barn Quilt"
 categories: [electronics, art, led_project]
 date: 2021-12-02 18:00
 ---
@@ -17,6 +17,8 @@ The divider is white to reflect more light within the panel. Hoping light doesn'
 
 ![divider printing]({{ site.url }}/assets/images/barn_quilt_divider_printing.jpg)
 
-Got the LED strips placed and have started soldering them up. 
+Got the LED strips placed and have started soldering them up. I've been sneaking in 5-10 minutes in where I can, so I haven't quite finished.
 
 ![lights placed]({{ site.url }}/assets/images/barn_quilt_lights_placed.jpg)
+
+Have pulled in the demos from the instructable and started porting them to work on an ESP32. I eventually want to add a web based control panel, similar to [Ben Hencke's Pixelblaze](https://www.bhencke.com/pixelblaze), to draw the quilt patterns. But first things first; get the lights turned on! 
