@@ -5,8 +5,6 @@ title: Sewing
 
 ---
 
-# Dog Coats
-
 
 # Updates
 
