@@ -1,8 +1,7 @@
 ---
-
 layout: page
 title: Crochet
-
+lastmod: 2022-07-03T01:10:24.494Z
 ---
 
 ## Active Projects
@@ -53,3 +52,7 @@ Turtle
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
   </article>
 {% endfor %}
+
+# Notes and link-hoard
+
+[Smooth Join in the Round](https://assiabrill.com/knitting-2/smooth-join-in-the-round/)
