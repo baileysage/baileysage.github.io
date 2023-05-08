@@ -5,33 +5,18 @@ title: Home
 
 ---
 
-## Welcome! 
+## Welcome!
 
-Attempting to keep the world up to date on my projects. 
+Attempting to keep the world up to date on my projects.
 
-Requests to hire me can be made through [Stone Path Engineering LLC](https://stone-path-engineering.github.io/) for just me on small or short term embedded projects, local electronics training or maker space consulting. If you have a large or complex embedded project, you can hire me as part of the excellent team of engineers at [Dojo Five LLC](https://dojofive.com/). 
+Requests to hire me can be made through [Stone Path Engineering LLC](https://stone-path-engineering.github.io/) for small or short term embedded projects, local embedded systems training, or consulting.
 
-## Code and Electronics Projects
-
-[Classroom Sound Meter](https://github.com/baileysage/ClassroomSoundMeter)
- 
-[Lunch Club Mailer](https://github.com/baileysage/LunchClubMailer)
- 
 ## Talks
-[Electricity and Electronics](https://github.com/baileysage/ElectricityAndElectronicsSlides)
 
-[Intro to Arduino](https://github.com/baileysage/IntroToArduinoSlides)
-
-Robots in the Classroom
- 
-## Groups
-
-[Area515](https://area515.org)
- - Former Educational Director and Board Member
- - Regular classroom instructor
-
-[LadyDev](https://ladydev.org/)
- - Founding member
+- [Electricity and Electronics](https://github.com/baileysage/ElectricityAndElectronicsSlides)
+- [Intro to Arduino](https://github.com/baileysage/IntroToArduinoSlides)
+- Hobbies Make You a Better Engineer
+- Robots in the Classroom
 
 ## Categories
 
@@ -39,10 +24,27 @@ Robots in the Classroom
 
 [Crochet]({{ site.url }}/pages/crochet.html)
 
-[Sewing]({{ site.url }}/pages/sewing.html)
-
-[House]({{ site.url }}/pages/house.html)
-
 [LED Projects]({{ site.url }}/pages/led_projects.html)
 
 [Electronics]({{ site.url }}/pages/electronics.html)
+
+## Stuff I've Written Elsewhere
+
+- [Troubleshooting with Assumptions](https://dojofive.com/blog/common-troubleshooting-assumptions/)
+- [Making Your Code Easy to Read](https://dojofive.com/blog/making-your-code-easy-to-read/)
+- [Successful Code Reviews](https://dojofive.com/blog/three-suggestions-for-successful-code-reviews/)
+- [Reading New Code](https://dojofive.com/blog/3-steps-to-reading-new-code/)
+- [IoT Security Basics](https://dojofive.com/blog/design-for-iot-security-from-the-start/)
+- [Team Communication](https://dojofive.com/blog/the-parts-of-devops-that-have-nothing-to-do-with-code/)
+- [Can You Trust Your Docker Image?](https://dojofive.com/blog/trusting-the-docker-images-your-code-is-built-on/)
+
+## Groups
+
+[Area515](https://area515.org)
+
+    - Former Educational Director and Board Member
+    - Regular classroom instructor
+
+[LadyDev](https://ladydev.org/)
+
+    - Founding member
