@@ -15,8 +15,7 @@ Requests to hire me can be made through [Stone Path Engineering LLC](https://sto
 
 - [Electricity and Electronics](https://github.com/baileysage/ElectricityAndElectronicsSlides)
 - [Intro to Arduino](https://github.com/baileysage/IntroToArduinoSlides)
-- Hobbies Make You a Better Engineer
-- Robots in the Classroom
+- [Hobbies Make You a Better Engineer](https://docs.google.com/presentation/d/1aSyNORRJfUW4fqiEch1PGw6MJAqy9tvJ9BMquMYibDE/edit?usp=sharing)
 
 ## Categories
 
@@ -42,9 +41,9 @@ Requests to hire me can be made through [Stone Path Engineering LLC](https://sto
 
 [Area515](https://area515.org)
 
-    - Former Educational Director and Board Member
-    - Regular classroom instructor
+- Former Educational Director and Board Member
+- Regular classroom instructor
 
 [LadyDev](https://ladydev.org/)
 
-    - Founding member
+- Founding member
