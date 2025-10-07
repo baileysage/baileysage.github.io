@@ -9,7 +9,7 @@ title: Home
 
 Attempting to keep the world up to date on my projects.
 
-Requests to hire me can be made through [Stone Path Engineering LLC](https://stone-path-engineering.github.io/) for small or short term embedded projects, local embedded systems training, or consulting.
+Requests to hire me can be made through [Spark Embedded, LLC](https://sparkembedded.com/) for embedded project development, local embedded systems training, or consulting.
 
 ## Talks
 
@@ -47,3 +47,12 @@ Requests to hire me can be made through [Stone Path Engineering LLC](https://sto
 [LadyDev](https://ladydev.org/)
 
 - Founding member
+
+[Des Moines Weavers and Spinners](https://www.desmoinesweaversguild.org/)
+
+- Membership chair
+
+[Iowans of Things](https://iowansofthings.com/)
+
+- Founding member
+
