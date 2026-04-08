@@ -9,7 +9,7 @@ title: Home
 
 Attempting to keep the world up to date on my projects.
 
-Requests to hire me can be made through [Spark Embedded, LLC](https://sparkembedded.com/) for embedded project development, local embedded systems training, or consulting.
+Requests to hire me can be made through [Stone Path Engineering, LLC](https://stonepathengineering.com/) for embedded project development, local embedded systems training, or consulting.
 
 ## Talks
 
